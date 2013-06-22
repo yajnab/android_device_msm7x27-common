@@ -120,17 +120,25 @@ PRODUCT_COPY_FILES += \
     device/samsung/msm7x27-common/prebuilt/etc/audio_policy.conf:system/etc/audio_policy.conf \
     device/samsung/msm7x27-common/prebuilt/etc/media_codecs.xml:system/etc/media_codecs.xml
 
-## Keymap
+## Keylayout
 PRODUCT_COPY_FILES += \
-    device/samsung/msm7x27-common/prebuilt/usr/keylayout/sec_jack.kl:system/usr/keylayout/sec_jack.kl \
-    device/samsung/msm7x27-common/prebuilt/usr/keylayout/sec_key.kl:system/usr/keylayout/sec_key.kl
+    vendor/samsung/callisto/proprietary/usr/keylayout/sec_jack.kl:system/usr/keylayout/sec_jack.kl \
+    vendor/samsung/callisto/proprietary/usr/keylayout/sec_keypad.kl:system/usr/keylayout/sec_keypad.kl \
+    vendor/samsung/callisto/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
+    vendor/samsung/callisto/proprietary/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
+    vendor/samsung/callisto/proprietary/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
+    vendor/samsung/callisto/proprietary/usr/synaptics.kl:system/usr/keylayout/synaptics.kl \
 
-## Keychar
+## Keychars
 PRODUCT_COPY_FILES += \
-    device/samsung/msm7x27-common/prebuilt/usr/keylayout/qwerty.kcm:system/usr/keylayout/qwerty.kcm \
-    device/samsung/msm7x27-common/prebuilt/usr/keylayout/qwerty2.kcm:system/usr/keylayout/qwerty2.kcm \
-    device/samsung/msm7x27-common/prebuilt/usr/keylayout/Virtual.kcm:system/usr/keylayout/Virtual.kcm \
-    device/samsung/msm7x27-common/prebuilt/usr/keylayout/Generic.kcm:system/usr/keylayout/Generic.kcm
+    vendor/samsung/callisto/proprietary/usr/keychars/qwerty.kcm:system/usr/keychars/qwerty.kcm \
+    vendor/samsung/callisto/proprietary/usr/keychars/qwerty.kcm.bin:system/usr/keychars/qwerty.kcm.bin \
+    vendor/samsung/callisto/proprietary/usr/keychars/qwerty2.kcm:system/usr/keychars/qwerty2.kcm \
+    vendor/samsung/callisto/proprietary/usr/keychars/qwerty2.kcm.bin:system/usr/keychars/qwerty2.kcm.bin \
+    vendor/samsung/callisto/proprietary/usr/keychars/Virtual.kcm:system/usr/keychars/Virtual.kcm \
+    vendor/samsung/callisto/proprietary/usr/keychars/Generic.kcm:system/usr/keychars/Generic.kcm \
+    vendor/samsung/callisto/proprietary/usr/keychars/sec_keypad.kcm:system/usr/keychars/sec_keypad.kcm \
+    vendor/samsung/callisto/proprietary/usr/keychars/sec_keypad.kcm.bin:system/usr/keychars/sec_keypad.kcm.bin \
 
 ## Touchscreen
 PRODUCT_COPY_FILES += \
