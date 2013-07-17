@@ -1,5 +1,3 @@
-device_msm7x27
-==============
 
 ** Samsung msm7x27-common device source / configuration for building Android 4.2
 
