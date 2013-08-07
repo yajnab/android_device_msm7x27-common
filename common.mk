@@ -124,7 +124,6 @@ PRODUCT_COPY_FILES += \
     device/samsung/callisto/ramdisk/modules/sec_param.ko:root/lib/modules/sec_param.ko \
     device/samsung/callisto/ramdisk/modules/rfs_fat.ko:root/lib/modules/rfs_fat.ko \
     device/samsung/callisto/ramdisk/modules/rfs_glue.ko:root/lib/modules/rfs_glue.ko
-#   device/samsung/callisto/ramdisk/modules/acc_cal_param.ko:root/lib/modules/acc_cal_param.ko 
 
 
 ## ICS GPS blob
