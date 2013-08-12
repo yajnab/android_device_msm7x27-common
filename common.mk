@@ -84,21 +84,6 @@ PRODUCT_COPY_FILES += \
     device/samsung/msm7x27-common/prebuilt/etc/audio_policy.conf:system/etc/audio_policy.conf \
     device/samsung/msm7x27-common/prebuilt/etc/media_codecs.xml:system/etc/media_codecs.xml
 
-## Keymap
-PRODUCT_COPY_FILES += \
-    device/samsung/callisto/prebuilt/usr/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
-    device/samsung/callisto/prebuilt/usr/keylayout/sec_jack.kl:system/usr/keylayout/sec_jack.kl \
-    device/samsung/callisto/prebuilt/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
-    device/samsung/callisto/prebuilt/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
-    device/samsung/callisto/prebuilt/usr/keylayout/sec_key.kl:system/usr/keylayout/sec_key.kl 
-
-## Keychar
-PRODUCT_COPY_FILES += \
-    device/samsung/callisto/prebuilt/usr/keylayout/qwerty.kcm:system/usr/keylayout/qwerty.kcm \
-    device/samsung/callisto/prebuilt/usr/keylayout/qwerty2.kcm:system/usr/keylayout/qwerty2.kcm \
-    device/samsung/callisto/prebuilt/usr/keylayout/Virtual.kcm:system/usr/keylayout/Virtual.kcm \
-    device/samsung/callisto/prebuilt/usr/keylayout/Generic.kcm:system/usr/keylayout/Generic.kcm
-
 ## Touchscreen
 PRODUCT_COPY_FILES += \
     device/samsung/msm7x27-common/prebuilt/usr/idc/sec_touchscreen.idc:system/usr/idc/sec_touchscreen.idc
