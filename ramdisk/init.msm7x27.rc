@@ -25,6 +25,9 @@ on fs
     mount ext4 /dev/block/stl13 /data wait nosuid nodev
     mount ext4 /dev/block/stl14 /cache wait nosuid nodev
 
+    # mount file system
+    mount_all /fstab.msm7x27
+
     chown radio /dev/bml7
     chown radio /dev/bml10
     chown radio /dev/bml11
